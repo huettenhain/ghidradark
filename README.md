@@ -1,9 +1,11 @@
-# Ghidra Theme: Flat Dark Volume 2
+# Jesko's Ghidra Config
 
-This is my version of the Ghidra dark theme. It looks like this:
+This is how I like to configure Ghidra.
 
-![SScreenshot](screenshot.png)
+- Get my [IDA-Like Key Bindings](ghIDA.kbxml): In the **Code Browser** window, go to **Edit** → **Tool Options** → **Key Bindings** → **Import**.
+- Get my [Higher Contrast Dark Theme](main.theme): In the main project window, go to **Edit** → **Theme** → **Import**.
 
-For the proper retro look, you need to install the two fonts [FixedSysEx](FixedSysEx.ttf) and [FixedSysEx-Bold](FixedSysEx-Bold.ttf), which are identical, except that the "bold" variant advertises itself as being bold. This will prevent the font from looking terrible when being rendered as bold, at the price of not actually having a bold version.
+For the proper retro look, you need to install the two fonts [FixedSysEx](FixedSysEx.ttf) and [FixedSysEx-Bold](FixedSysEx-Bold.ttf), which are identical, except that the "bold" variant advertises itself as being bold. It looks like this:
 
-With the font installed, all you have to do is import the [theme file](main.theme) via **Edit** → **Theme** → **Import** in the main project window.
+![Screenshot](screenshot.png)
+
