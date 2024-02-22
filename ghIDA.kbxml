@@ -459,6 +459,10 @@
         <STATE NAME="KeyCode" TYPE="int" VALUE="67" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Tree Expand Node (Shared)" CLASS="ghidra.framework.options.WrappedKeyStroke">
+        <STATE NAME="KeyCode" TYPE="int" VALUE="40" />
+        <STATE NAME="Modifiers" TYPE="int" VALUE="520" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Create Structure (DataPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
         <STATE NAME="KeyCode" TYPE="int" VALUE="91" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="65" />
@@ -480,6 +484,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Convert To Unsigned Decimal (EquatePlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
         <STATE NAME="KeyCode" TYPE="int" VALUE="67" />
+        <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Cycle: char,string,unicode (StackEditorManagerPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
+        <STATE NAME="KeyCode" TYPE="int" VALUE="222" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Delete folder/fragment (ProgramTreePlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
@@ -510,6 +518,10 @@
         <STATE NAME="KeyCode" TYPE="int" VALUE="85" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Cycle: float,double (StackEditorManagerPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
+        <STATE NAME="KeyCode" TYPE="int" VALUE="70" />
+        <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Go To Next Function (CodeBrowserPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
         <STATE NAME="KeyCode" TYPE="int" VALUE="40" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="130" />
@@ -535,7 +547,7 @@
         <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Set Default Stack Reference (ReferencesPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="77" />
+        <STATE NAME="KeyCode" TYPE="int" VALUE="83" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Cycle: float,double (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
@@ -748,6 +760,10 @@
     <WRAPPED_OPTION NAME="Editor: Delete Components (Shared)" CLASS="ghidra.framework.options.WrappedKeyStroke">
         <STATE NAME="KeyCode" TYPE="int" VALUE="127" />
         <STATE NAME="Modifiers" TYPE="int" VALUE="0" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Tree Collapse Node (Shared)" CLASS="ghidra.framework.options.WrappedKeyStroke">
+        <STATE NAME="KeyCode" TYPE="int" VALUE="38" />
+        <STATE NAME="Modifiers" TYPE="int" VALUE="520" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Split Out As New Variable (DecompilePlugin)" CLASS="ghidra.framework.options.WrappedKeyStroke">
         <STATE NAME="KeyCode" TYPE="int" VALUE="45" />
