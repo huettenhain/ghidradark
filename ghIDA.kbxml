@@ -1,983 +1,1062 @@
 <CATEGORY NAME="Key Bindings">
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Source Code Lookup (SourceCodeLookupPlugin)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove Stack Depth Change (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Export Program (ExporterPlugin)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove Stack Depth Change (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cut (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Export Program (ExporterPlugin)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="ByteViewer Clone (ByteViewerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Highlihted Token (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed PERIOD"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Last Active Component (ProviderNavigationPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed F6"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Address/Label (GoToAddressLabelPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed G"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Save File (ProgramManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Highlight Defined Use (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed SPACE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Recently Used (Shared)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cut (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create External Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="ByteViewer Clone (ByteViewerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Paste (ClipboardPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed V"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Last Active Component (ProviderNavigationPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="117"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Collapse All (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed UP"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Address/Label (GoToAddressLabelPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="71"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Listing (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F6"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Save File (ProgramManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="83"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Location in History (NextPrevAddressPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed LEFT"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="Button4"></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Highlight Defined Use (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="32"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Add (DataTypePreviewPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed PLUS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Recently Used (Shared)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cut SymbolTree Node (SymbolTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create Pointer (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete (DataTypePreviewPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Save (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Selection From Highlight (SetHighlightPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F8"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set KeyBinding (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F4"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Equate (EquateTablePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Code Viewer Clone (Listing)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show Focus Cycle (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl alt pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Unsigned Hex (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Retype Return (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove Signature Override (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Decrement Font (tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed MINUS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Reset Interpreter (JythonPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Copy (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Back Refs (SelectRefsPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed SEMICOLON"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Select All (CodeBrowserSelectionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Highlighted Token (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed COMMA"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Equate (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed M"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cycle: char,string,unicode (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed QUOTE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Variable (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Function Variable (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Signed Decimal (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Archive (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Symbols (SymbolTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Copy (ClipboardPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show References To Address (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Comments (CommentsPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed SEMICOLON"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Define string (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Redo (ProgramManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create Array (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed OPEN_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Program (MultiTabPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed F7"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Add Bookmark (BookmarkPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F9"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Matching Byte Values (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed V"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Choose Data Type (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Previous Brace (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed OPEN_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Symbol Table (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Add Label (LabelMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed L"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Equate (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed E"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble Thumb (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F12"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Apply Enum (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed E"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Table Data Copy Current Column (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Increment Font (tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed EQUALS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="PatchMemory.java (GhidraScriptMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift alt pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Data Type (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Data Field (DataPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename (GhidraScriptMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Interrupt Interpreter (JythonPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed I"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Fragment from Code Browser (AutoRenamePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Function (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Commit Params/Return (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show Label History (LabelMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl alt pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Unsigned Binary (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Close File (ProgramManagerPlugin)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Create External Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Paste (ClipboardPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="86"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Collapse All (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="38"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Listing (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="117"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Previous Location in History (NextPrevAddressPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="37"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Add (DataTypePreviewPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="521"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cut SymbolTree Node (SymbolTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Compare Functions (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete (DataTypePreviewPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Save (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="83"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Selection From Highlight (SetHighlightPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="119"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Equate (EquateTablePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Code Viewer Clone (Listing)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Unsigned Hex (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="72"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Retype Return (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove Signature Override (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Decrement Font (tool)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="45"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Copy (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Back Refs (SelectRefsPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="59"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Select All (CodeBrowserSelectionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Equate (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="77"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: char,string,unicode (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="222"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Reset Interpreter (PythonPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="68"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Variable (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Function Variable (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Signed Decimal (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Archive (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Symbols (SymbolTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Replace View (ProgramTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Copy (ClipboardPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Show References To Address (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Edit Comments (CommentsPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="59"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Define string (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Redo (ProgramManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Program (MultiTabPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="118"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Add Bookmark (BookmarkPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="120"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Matching Byte Values (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="86"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Choose Data Type (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Previous Brace (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="91"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Symbol Table (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="114"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Add Label (LabelMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="76"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Equate (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="69"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Apply Enum Changes (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="83"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble Thumb (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="123"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Apply Enum (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="69"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Table Data Copy Current Column (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Increment Font (tool)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="61"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="PatchMemory.java (GhidraScriptMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="585"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Data Field (DataPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename (GhidraScriptMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Fragment from Code Browser (AutoRenamePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Function (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Commit Params/Return (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Create Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Show Label History (LabelMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="72"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="715"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Find Uses of Field (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Unsigned Binary (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Close File (ProgramManagerPlugin)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Bookmark (NextPrevCodeUnitPlugin)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Bookmark (NextPrevCodeUnitPlugin)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Highlight From Selection (SetHighlightPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Apply Editor Changes (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Duplicate Component (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Expand All (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed DOWN"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Undefined (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Re-create Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Jump to Previous Dockable Provider (Tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed J"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cycle: float,double (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble MIPS16/Micromips (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F12"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cycle: byte,word,dword,qword (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Location in History (NextPrevAddressPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed RIGHT"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="Button5"></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="PatchVectorExceptionHandlerCall.java (GhidraScriptMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F8"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Double (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Bookmarks (BookmarkPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Add Enum Value (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed INSERT"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble PPC (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F11"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Variable Comment (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed SEMICOLON"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Repeat Text Search (SearchTextPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show All History (LabelMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl alt pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set EOL Comment (CommentsPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed COMMA"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble XGate (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F11"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Repeat Memory Search Backwards (MemorySearchPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Force Union Field (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble MIPS (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F11"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove Equate (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Operand Label (LabelMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed L"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Jump to Next Dockable Provider (Tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed J"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Apply Enum Changes (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Data (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove folder/fragment from View (ProgramTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Patch Data (AssemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Variable (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Zoom Out (FunctionGraphPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed MINUS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Instruction (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed I"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Decompile Clone (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Fragment from Program Tree View (AutoRenamePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Define Array (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed OPEN_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Global (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed L"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Redo Editor Change (Shared)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Highlight From Selection (SetHighlightPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="72"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Function Variable (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Expand All (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="40"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Char (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed R"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Undefined (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create Default Reference (ReferencesPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed R"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Re-create Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: float,double (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Previous Function (CodeBrowserPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed UP"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble MIPS16/Micromips (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="123"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Function (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: byte,word,dword,qword (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="68"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Toggle Expand/Collapse Data (CodeBrowserPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed SPACE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Location in History (NextPrevAddressPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="39"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Select All Code Units (FunctionGraphPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="PatchVectorExceptionHandlerCall.java (GhidraScriptMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="119"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Register Values (RegisterPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed R"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Double (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Define TerminatedUnicode (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Bookmarks (BookmarkPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Unsigned Octal (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble PPC (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="122"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Symbols (SymbolTablePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Edit Variable Comment (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="59"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble 32-bit x86 (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F12"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Unpackage Component (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="61"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Duplicate Multiple of Component (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed M"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Repeat Text Search (SearchTextPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Decimal (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Show All History (LabelMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="72"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="715"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Tree Expand Node (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed DOWN"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set EOL Comment (CommentsPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="44"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create Structure (DataPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed OPEN_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Move Components Up (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="38"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Copy Special (ClipboardPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed E"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble XGate (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="122"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble 64-bit x86 (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F11"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble MIPS (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="122"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Open File System (FileSystemBrowserPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed I"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove Equate (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Force Union Field (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Operand Label (LabelMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="76"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Data (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="68"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove folder/fragment from View (ProgramTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Variable (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Patch Data (AssemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Add Enum Value (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="155"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Zoom Out (FunctionGraphPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="45"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Instruction (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="73"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Decompile Clone (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Fragment from Program Tree View (AutoRenamePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Define Array (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="91"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Global (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="76"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Function Variable (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Char (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Create Default Reference (ReferencesPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Edit Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Previous Function (CodeBrowserPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="38"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Function (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Toggle Expand/Collapse Data (CodeBrowserPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="32"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Select All Code Units (FunctionGraphPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Register Values (RegisterPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Unsigned Octal (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Symbols (SymbolTablePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble 32-bit x86 (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="123"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Decimal (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Tree Expand Node (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="40"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Create Structure (DataPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="91"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Copy Special (ClipboardPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="69"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble 64-bit x86 (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="122"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Open File System (FileSystemBrowserPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="73"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear Cut (DataTypeManagerPlugin)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Cut (DataTypeManagerPlugin)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Unsigned Decimal (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: char,string,unicode (StackEditorManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="222"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete folder/fragment (ProgramTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Define pointer (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Float (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete References From (ReferencesPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="RestoreMemory.java (GhidraScriptMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="585"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Open File (ProgramManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="79"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Clear Components (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: float,double (StackEditorManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Next Function (CodeBrowserPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="40"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Toggle Search Direction (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Edit Component Field (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Symbol (SymbolTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Function Definition (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Signed Hex (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Default Stack Reference (ReferencesPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="83"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: float,double (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble Arm (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="122"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Function Graph Clone (FunctionGraphPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Mark and Select (CodeBrowserSelectionPlugin)">
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Undo Editor Change (Shared)">
         <CLEARED_VALUE></CLEARED_VALUE>
     </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Default Register Reference (ReferencesPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="77"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Apply Editor Changes (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="83"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Zoom In (FunctionGraphPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="61"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Function in History (NextPrevAddressPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="27"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear With Options (ClearPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Equate (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="77"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Find (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Undo (ProgramManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="90"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="View Program Differences (ProgramDiffPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="50"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble PPC-VLE (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="123"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear Variable Data Type (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Label (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="76"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Defined Strings (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="123"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Patch Instruction (AssemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Last Active Program (MultiTabPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="117"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Edit External Location (LabelMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Select All (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Show Numbers In Hex (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="72"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Move Components Down (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="40"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Commit Locals (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename folder/fragment (ProgramTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="113"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear Function Return Type (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Paste (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="86"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Revert Thunk Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="References To (SymbolTablePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Duplicate Multiple of Component (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="77"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To start of folder/fragment in View (ProgramTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="71"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Override Signature (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="79"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Selected Range (NextPrevSelectedRangePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="91"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Pre Comment (CommentsPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="155"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Edit Function Signature (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Forward Refs (SelectRefsPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="46"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Set Stack Depth Change (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="75"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Print (PrintingPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="715"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Previous Program (MultiTabPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="33"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Enable/Disable Byteviewer Editing (ByteViewerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="69"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove Label (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Highlighted Range (NextPrevHighlightRangePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="48"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Field (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Filter Bookmarks (BookmarkPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="66"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Search Memory (MemSearchPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="66"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Close Window (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="114"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="HashDB.java (GhidraScriptMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="114"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Retype Field (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Insert Undefined Byte (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Exit Ghidra (Tool)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="81"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Delete Components (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Tree Collapse Node (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="38"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Split Out As New Variable (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="45"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Function Variable Comment (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Previous Function in History (NextPrevAddressPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="27"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="View/Edit References From (ReferencesPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Delete Enum Value (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Interrupt Interpreter (PythonPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="73"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Repeat Memory Search (MemSearchPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="66"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Next Label (NextPrevCodeUnitPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="76"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Auto Analyze (AutoAnalysisPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Structure (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="155"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Script Quick Launch (GhidraScriptMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="83"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Comments (CommentsPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Disassemble HCS12 (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="123"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Register Value Range (RegisterPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Retype Global (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Paste Symbols (SymbolTreePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="86"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Find Uses of (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear Register Values (RegisterPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove Equate (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rename Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="78"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Next Brace (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="93"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Create Array (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Add Default Memory Reference (ReferencesPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="77"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Recover Structure Variable (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="91"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: char,string,unicode (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="222"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Table Data Copy (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="67"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Previous Selected Range (NextPrevSelectedRangePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="93"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Search Text (SearchTextPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="84"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Bookmarks (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="120"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="65"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Char (EquatePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Go To Next Program (MultiTabPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="34"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Previous Highlighted Range (NextPrevHighlightRangePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="57"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Find Data Types by Name (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="70"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Find References To (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete Function (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Create Pointer (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear Code Bytes (ClearPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Extract and Import (ImporterPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="73"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="650"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Rerun Last Script (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="82"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="195"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Cycle: byte,word,dword,qword (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="68"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Reset Font (tool)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="48"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Decompiler (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="116"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Convert To Hexadecimal (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="72"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Clear Parameter Data Type (FunctionPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="85"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Import File (ImporterPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="73"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Table Select All (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="65"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Editor: Duplicate Component (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="68"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="520"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Find References to Symbol (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="88"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Edit Label (LabelMgrPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="76"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Define void (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="86"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Retype Variable (DecompilePlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="89"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Delete (DataTypeManagerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Remove Items (Shared)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="127"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="0"></STATE>
-    </WRAPPED_OPTION>
-    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedKeyStroke" NAME="Modify Instruction Flow (DisassemblerPlugin)">
-        <STATE NAME="KeyCode" TYPE="int" VALUE="80"></STATE>
-        <STATE NAME="Modifiers" TYPE="int" VALUE="130"></STATE>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Unsigned Decimal (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete folder/fragment (ProgramTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Components (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Define pointer (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Float (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete References From (ReferencesPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="RestoreMemory.java (GhidraScriptMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift alt pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Open File (ProgramManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed O"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Memory Search (MemorySearchPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed B"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Next Function (CodeBrowserPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed DOWN"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Toggle Search Direction (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Symbol (SymbolTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Function Definition (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Signed Hex (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Default Stack Reference (ReferencesPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cycle: float,double (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble Arm (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F11"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Function Graph Clone (FunctionGraphPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Mark and Select (CodeBrowserSelectionPlugin)">
+        <CLEARED_VALUE></CLEARED_VALUE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Default Register Reference (ReferencesPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed M"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Zoom In (FunctionGraphPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed EQUALS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Function in History (NextPrevAddressPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed ESCAPE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear With Options (ClearPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Equate (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed M"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show Action Chooser Dialog (Tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed 3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Find (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Components (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Undo (ProgramManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed Z"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="View Program Differences (ProgramDiffPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed 2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble PPC-VLE (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F12"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Variable Data Type (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Label (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed L"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Window (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Defined Strings (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F12"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Patch Instruction (AssemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Last Active Program (MultiTabPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed F6"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit External Location (LabelMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Select All (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Insert Undefined Byte (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename folder/fragment (ProgramTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Commit Locals (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Function Return Type (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Paste (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed V"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Revert Thunk Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="References To (SymbolTablePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Component (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed TAB"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To start of folder/fragment in View (ProgramTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed G"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Override Signature (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed O"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Selected Range (NextPrevSelectedRangePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed OPEN_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Add to View (ProgramTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Pre Comment (CommentsPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed INSERT"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show Focus Info (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl alt pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Function Signature (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Forward Refs (SelectRefsPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed PERIOD"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set Stack Depth Change (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed K"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Print (PrintingPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl alt pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Previous Program (MultiTabPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed PAGE_UP"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Enable/Disable Byteviewer Editing (ByteViewerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed E"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove Label (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Highlighted Range (NextPrevHighlightRangePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed 0"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Repeat Memory Search Forwards (MemorySearchPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Field (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Filter Bookmarks (BookmarkPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed B"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Component Theme Inspector (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl alt pressed F9"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Component (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed TAB"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Close Window (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="HashDB.java (GhidraScriptMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Retype Field (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Exit Ghidra (Tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed Q"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Toggle Hex Mode (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Data Settings (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Tree Collapse Node (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed UP"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Set View (ProgramTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Split Out As New Variable (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed MINUS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Function Variable Comment (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Unpackage Component (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed EQUALS"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Window (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed F3"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Function in History (NextPrevAddressPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed ESCAPE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="View/Edit References From (ReferencesPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show Numbers In Hex (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Create Pointer (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Next Label (NextPrevCodeUnitPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed L"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Auto Analyze (AutoAnalysisPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Structure (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed INSERT"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Component Field (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F2"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Script Quick Launch (GhidraScriptMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed S"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Comments (CommentsPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Disassemble HCS12 (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F12"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Register Value Range (RegisterPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Retype Global (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Paste Symbols (SymbolTreePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed V"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Move Components Down (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed DOWN"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Register Values (RegisterPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed R"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove Equate (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Define TerminatedCString (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Help Info (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed F1"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rename Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed N"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Next Brace (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed CLOSE_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Show Context Menu (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F10"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Add Default Memory Reference (ReferencesPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed M"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Recover Structure Variable (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed OPEN_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cycle: char,string,unicode (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed QUOTE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Move Components Up (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed UP"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Table Data Copy (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed C"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Selected Range (NextPrevSelectedRangePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed CLOSE_BRACKET"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Search Text (SearchTextPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="alt pressed T"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Bookmarks (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F9"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Char (EquatePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed R"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Go To Next Program (MultiTabPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed PAGE_DOWN"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Previous Highlighted Range (NextPrevHighlightRangePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed 9"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Find Data Types by Name (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed F"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Find References To (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Function (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Code Bytes (ClearPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Context Help (DockingWindows)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F1"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Extract and Import (ImporterPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed I"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Cycle: byte,word,dword,qword (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed D"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Rerun Last Script (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed R"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Reset Font (tool)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed 0"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Decompiler (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F5"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Convert To Hexadecimal (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed H"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Clear Parameter Data Type (FunctionPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed U"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Import File (ImporterPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed I"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Table Select All (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed A"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Find References to Symbol (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed X"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Edit Label (LabelMgrPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed L"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete Enum Value (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Define void (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed V"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Retype Variable (DecompilePlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Delete (DataTypeManagerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Remove Items (Shared)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION CLASS="ghidra.framework.options.WrappedActionTrigger" NAME="Modify Instruction Flow (DisassemblerPlugin)">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed P"></STATE>
+        <STATE NAME="MouseBinding" TYPE="string" VALUE=""></STATE>
     </WRAPPED_OPTION>
 </CATEGORY>
