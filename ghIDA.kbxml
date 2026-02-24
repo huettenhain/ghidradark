@@ -444,6 +444,10 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed DELETE" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Redo Editor Change (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="shift ctrl pressed Z" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Convert To Char (DecompilePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed R" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
@@ -453,7 +457,7 @@
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Edit Function (FunctionPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F" />
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Go To Previous Function (CodeBrowserPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -525,6 +529,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Convert To Unsigned Decimal (EquatePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed C" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Undo Editor Change (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed Z" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Delete folder/fragment (ProgramTreePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -751,7 +759,7 @@
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Edit Function Signature (DecompilePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
-        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F" />
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed Y" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Forward Refs (SelectRefsPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -938,12 +946,20 @@
         <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed F10" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Cycle: float,double,longdouble (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed F" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Add Default Memory Reference (ReferencesPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl pressed M" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Recover Structure Variable (DecompilePlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="shift pressed OPEN_BRACKET" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Cycle: char,string,unicode (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed QUOTE" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Move Components Up (Shared)" CLASS="ghidra.framework.options.WrappedActionTrigger">
@@ -1000,6 +1016,10 @@
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Extract and Import (ImporterPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
         <STATE NAME="KeyStroke" TYPE="string" VALUE="ctrl alt pressed I" />
+        <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
+    </WRAPPED_OPTION>
+    <WRAPPED_OPTION NAME="Cycle: byte,word,dword,qword (DataTypeManagerPlugin)" CLASS="ghidra.framework.options.WrappedActionTrigger">
+        <STATE NAME="KeyStroke" TYPE="string" VALUE="pressed B" />
         <STATE NAME="MouseBinding" TYPE="string" VALUE="" />
     </WRAPPED_OPTION>
     <WRAPPED_OPTION NAME="Reset Font (tool)" CLASS="ghidra.framework.options.WrappedActionTrigger">
